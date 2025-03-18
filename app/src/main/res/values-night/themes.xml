@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FetchRewardsApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="CustomCardStyle" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardBackgroundColor">@color/black</item>
+    </style>
+
+    <style name="CustomSnackbarTheme">
+        <item name="snackbarStyle">@style/CustomSnackbarStyle</item>
+    </style>
+
+    <style name="CustomSnackbarStyle" parent="Widget.MaterialComponents.Snackbar">
+        <item name="android:backgroundTint">@color/black</item>
+    </style>
+</resources>
